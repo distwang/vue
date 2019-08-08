@@ -9,7 +9,6 @@
   (global = global || self, global.Vue = factory());
 }(this, function () { 'use strict';
 
-  /*  */
 
   var emptyObject = Object.freeze({});
 
@@ -376,7 +375,6 @@
     'serverPrefetch'
   ];
 
-  /*  */
 
 
 
@@ -474,7 +472,6 @@
     _lifecycleHooks: LIFECYCLE_HOOKS
   });
 
-  /*  */
 
   /**
    * unicode letters used for parsing html tags, component names and property paths.
@@ -521,7 +518,6 @@
     }
   }
 
-  /*  */
 
   // can we use __proto__?
   var hasProto = '__proto__' in {};
@@ -611,7 +607,6 @@
     }());
   }
 
-  /*  */
 
   var warn = noop;
   var tip = noop;
@@ -705,7 +700,6 @@
     };
   }
 
-  /*  */
 
   var uid = 0;
 
@@ -762,7 +756,6 @@
     Dep.target = targetStack[targetStack.length - 1];
   }
 
-  /*  */
 
   var VNode = function VNode (
     tag,
@@ -899,7 +892,6 @@
     });
   });
 
-  /*  */
 
   var arrayKeys = Object.getOwnPropertyNames(arrayMethods);
 
@@ -1152,7 +1144,6 @@
     }
   }
 
-  /*  */
 
   /**
    * Option overwriting strategies are functions that handle
@@ -1600,7 +1591,6 @@
     return res
   }
 
-  /*  */
 
 
 
@@ -1899,7 +1889,6 @@
     }
   }
 
-  /*  */
 
   var isUsingMicroTask = false;
 
